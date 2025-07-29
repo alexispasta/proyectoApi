@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <title>Registro</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h2>Registrarse</h2>
-  <form id="registroForm">
-    <input type="text" id="username" placeholder="Nombre de usuario" required /><br/>
-    <input type="password" id="password" placeholder="Contraseña" required /><br/>
-    <button type="submit">Registrar</button>
-  </form>
-  <p id="registroResult"></p>
+<body class="registro">
+  <div class="container">
+    <h2>Registrarse</h2>
+    <form id="registroForm">
+      <input type="text" id="username" placeholder="Nombre de usuario" required /><br/>
+      <input type="password" id="password" placeholder="Contraseña" required /><br/>
+      <button type="submit">Registrar</button>
+    </form>
+    <p id="registroResult"></p>
+    <button onclick="window.location.href='login.html'">Ir a Login</button>
+  </div>
 
   <script>
     document.getElementById('registroForm').addEventListener('submit', async function(e) {
