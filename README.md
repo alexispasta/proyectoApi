@@ -15,3 +15,4 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 - [Postman]
 - Git (opcional, si deseas clonar el proyecto desde un repositorio)
 
+Abrir pagina usando los archivos index.html y registro.html
